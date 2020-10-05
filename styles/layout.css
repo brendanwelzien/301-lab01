@@ -1,0 +1,14 @@
+p {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media(max-width: 768px){
+    div {
+        display: flex;
+        flex-wrap: flex;
+    }
+}

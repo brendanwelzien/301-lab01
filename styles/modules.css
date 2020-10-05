@@ -1,0 +1,108 @@
+@media(max-width: 768px){
+    main, ul {
+        width: 480px;
+        list-style-type: none;
+        overflow: hidden
+    }
+    main > ul:first-of-type{
+        height: 75px;
+    }
+    main > ul:first-of-type > li {
+        background-color: red;
+    }
+main > ul:nth-child(2){
+    height: 150px;
+}
+
+main > ul:nth-child(2) > li{
+    background-color: rgb(255, 81, 0)
+}
+
+main > div > ul > li{
+    height: 125px;
+}
+
+main > div > ul > li:first-child{
+background-color:blue
+}
+
+main > div > ul > li:nth-child(2){
+    background-color:green;
+    }
+main > section > ul{
+    width: 240px;
+    height:
+}
+
+main > section > ul:last-child{
+    height: 80px;
+    width: 480px;
+}
+
+main > section > ul:last-child > li{
+    background-color: yellow;
+}
+}
+
+@media(min-width: 960px){
+main {
+    width: 960px;
+}
+ul {
+    width: 960px;
+    list-style-type: none;
+}
+
+main > ul:first-of-type {
+    height: 100px;
+}
+main > ul:first-of-type > li {
+   background-color: rosybrown;
+}
+
+main > ul:nth-child(2) > li{
+    background-color: lightcyan;
+}
+
+main > ul:nth-child(2) {
+    width: 200px;
+    height: 600px;
+}
+
+div > ul {
+    width: 380px;
+    height: 200px;
+}
+
+div > ul > li:first-child{
+    background-color: teal;
+}
+
+div > ul > li:nth-child(2){
+    background-color: thistle;
+}
+
+main > section > ul {
+
+}
+
+section > ul > li:first-child{
+background-color: royalblue
+}
+
+section > ul > li:nth-child(2){
+    background-color: wheat
+    }
+
+section > ul > li:nth-child(3){
+    background-color:lightcoral
+    }
+
+section > ul > li:nth-child(4){
+    background-color: darkorange
+    }
+
+section > ul:last-of-type > li{
+    background-color:darkslategrey;
+}
+}
