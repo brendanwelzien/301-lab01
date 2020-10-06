@@ -3,20 +3,16 @@ p {
 }
 
 main {
-    display: grid;
-    justify-content: center;
-    flex-direction: column;
     width: 100%;
 }
-@media(min-width: 960px){
-     {
-        display: flex;
-    }
-section > ul > li:first-child, section > ul > li:nth-child(2){
-    display: grid;
-}
+@media(min-width: 780px){
+
 .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    }
+section > li:nth-of-type(3){
+   justify-content: flex-end;
+}
+
 }
