@@ -98,8 +98,9 @@ div > ul > li:nth-child(2){
     background-color: thistle;
 }
 
-main > section > ul {
-
+main > section > ul:first-of-type {
+width: 190px;
+height: 250px;
 }
 
 section > ul > li:first-child{
@@ -120,5 +121,9 @@ section > ul > li:nth-child(4){
 
 section > ul:last-of-type > li{
     background-color:darkslategrey;
+}
+ul:last-child {
+    width: 260px;
+    height: 150px;
 }
 }
