@@ -31,7 +31,7 @@ main > div > ul > li:nth-child(2){
     }
 main > section > ul{
     width: 240px;
-    height:
+    height: 250px;
 }
 
 section > ul > li:first-child{
