@@ -34,6 +34,22 @@ main > section > ul{
     height:
 }
 
+section > ul > li:first-child{
+    background-color: rebeccapurple
+    }
+    
+    section > ul > li:nth-child(2){
+        background-color: orchid
+        }
+    
+    section > ul > li:nth-child(3){
+        background-color:brown
+        }
+    
+    section > ul > li:nth-child(4){
+        background-color: bisque
+        }
+
 main > section > ul:last-child{
     height: 80px;
     width: 480px;
@@ -44,7 +60,7 @@ main > section > ul:last-child > li{
 }
 }
 
-@media(min-width: 960px){
+@media(min-width: 780px){
 main {
     width: 960px;
 }
